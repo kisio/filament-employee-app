@@ -26,6 +26,6 @@ class Employees extends Model
     }
     public function department()
     {
-        $this->belongsTo(Department::class);
+       return $this->belongsTo(Department::class);
     }
 }
